@@ -131,7 +131,6 @@ German-Credit-Risk-Machine-Learning/
 ├── requirements.txt
 └── README.md
 
-
 ---
 
 ## ▶️ How to Run the Project
@@ -139,8 +138,11 @@ German-Credit-Risk-Machine-Learning/
 ### 1️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
+
 ### 2️⃣ Run the Streamlit App
+```bash
 python -m streamlit run credit_risk_app.py
+
 ### 3️⃣ Open in Browser
 http://localhost:8501
 
