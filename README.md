@@ -116,7 +116,6 @@ The trained XGBoost model is deployed using Streamlit and provides:
 - Business-aligned decision support  
 
 ---
-
 ## 🗂 Project Structure
 
 German-Credit-Risk-Machine-Learning/
