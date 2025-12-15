@@ -8,6 +8,8 @@ The final model is deployed as an interactive **Streamlit web application**.
 
 ---
 
+
+
 ## ❓ Problem Statement
 Financial institutions face significant losses when loans are approved for high-risk applicants.  
 The challenge is to accurately assess an applicant’s creditworthiness before loan approval to minimize default risk.
