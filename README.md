@@ -1,4 +1,4 @@
-# Credit Risk Prediction using Machine Learning
+# 💳 Credit Risk Prediction using Machine Learning
 
 ## 📌 Project Overview
 This project focuses on predicting the credit risk of loan applicants using machine learning techniques.  
@@ -7,8 +7,6 @@ The system classifies applicants as **GOOD (creditworthy)** or **BAD (high risk)
 The final model is deployed as an interactive **Streamlit web application**.
 
 ---
-
-
 
 ## ❓ Problem Statement
 Financial institutions face significant losses when loans are approved for high-risk applicants.  
@@ -90,48 +88,62 @@ Although Random Forest achieved slightly higher accuracy, **XGBoost achieved the
 
 ---
 
+## 🖥️ Streamlit Application Preview
+
+<img src="https://github.com/user-attachments/assets/032f315d-312d-4d13-bd57-b6ac338b28e3" width="100%" />
+
+### 📌 Application Overview
+The screenshot above shows the deployed **Credit Risk Prediction Streamlit application**.  
+Users can enter applicant details such as age, job level, housing type, savings, credit amount, and loan duration.
+
+### 🔍 Prediction Logic
+- The application uses a trained **XGBoost model**
+- Predicts whether an applicant is:
+  - **GOOD** – Creditworthy  
+  - **BAD** – High risk  
+- Displays a **probability score** indicating model confidence
+
+### ⚖️ Risk Sensitivity Control
+The prediction threshold allows financial institutions to adjust approval strictness based on business risk appetite.
+
+---
+
 ## 🚀 Deployment – Streamlit Application
 The trained XGBoost model is deployed using Streamlit and provides:
 - User-friendly input form  
-- Credit risk prediction (GOOD / BAD)  
-- Confidence score (probability-based)  
-- Adjustable risk threshold for business decisions  
+- Real-time credit risk prediction  
+- Probability-based confidence scores  
+- Business-aligned decision support  
 
 ---
 
 ## 🗂 Project Structure
+
 German-Credit-Risk-Machine-Learning/
 │
-├── assets/
-│ └── streamlit_app_demo.png
-│
-├── notebooks/
-│ └── Credit Risk Analysis model.ipynb
-│
-├── models/
-│ ├── XGB_Credit_model.pkl
-│ ├── Sex_encoder.pkl
-│ ├── Housing_encoder.pkl
-│ ├── Saving accounts_encoder.pkl
-│ ├── Checking account_encoder.pkl
-│ └── target_encoder.pkl
-│
+├── Credit Risk Analysis model.ipynb
 ├── credit_risk_app.py
+├── XGB_Credit_model.pkl
+├── Sex_encoder.pkl
+├── Housing_encoder.pkl
+├── Saving accounts_encoder.pkl
+├── Checking account_encoder.pkl
+├── target_encoder.pkl
 ├── requirements.txt
 └── README.md
+
+
+---
 
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
-
 ### 2️⃣ Run the Streamlit App
 python -m streamlit run credit_risk_app.py
-
 ### 3️⃣ Open in Browser
 http://localhost:8501
-
 
 ## ✅ Key Takeaways
 - ROC-AUC is more reliable than accuracy for credit risk prediction problems  
@@ -149,7 +161,6 @@ http://localhost:8501
 ---
 
 ## 👩‍💻 Author
-
 **Gouthami Gottimukkala**  
 Aspiring Data Analyst | Data Scientist  
 Passionate about Machine Learning, Data Analytics, and Building Real-World Data-Driven Applications
