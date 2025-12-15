@@ -32,9 +32,8 @@ The challenge is to accurately assess an applicant’s creditworthiness before l
 ---
 
 ## 📊 Dataset Description
-**File Used:** [german_credit_data.csv](https://github.com/Gouthami9Gottimukkala/german-credit-risk-machine-learning/blob/main/german_credit_data.csv)
 
-- **Dataset**: German Credit Risk Dataset  
+- **Dataset**: [german_credit_data.csv](https://github.com/Gouthami9Gottimukkala/german-credit-risk-machine-learning/blob/main/german_credit_data.csv)  
 - **Total Records**: 1000  
 - **Target Variable**: `Risk` (GOOD / BAD)
 
