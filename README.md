@@ -117,7 +117,7 @@ The trained XGBoost model is deployed using Streamlit and provides:
 
 ---
 ## 🗂 Project Structure
-
+```
 German-Credit-Risk-Machine-Learning/
 │
 ├── Credit Risk Analysis model.ipynb
@@ -130,6 +130,7 @@ German-Credit-Risk-Machine-Learning/
 ├── target_encoder.pkl
 ├── requirements.txt
 └── README.md
+```
 ---
 
 ## ▶️ How to Run the Project
